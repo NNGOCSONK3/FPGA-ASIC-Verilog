@@ -1,0 +1,6 @@
+
+State Machine - |CPU|controller:a3|state
+Name state.reset state.execute state.load 
+state.reset 0 0 0 
+state.load 1 0 1 
+state.execute 1 1 0 

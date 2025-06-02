@@ -1,0 +1,440 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\VLSI\New folder (2)\simulation\modelsim
+vALU
+!i10b 1
+!s100 dLo^O[2^NaoPNaECIZi7M1
+INZZIV1Q6giO1k=E:O[BEQ0
+V2hW947e7nlaX>ST_;a0AG0
+Z1 dD:\VLSI\New folder (2)\simulation\modelsim
+Z2 w1748832329
+Z3 8D:/VLSI/New folder (2)/ALU.v
+Z4 FD:/VLSI/New folder (2)/ALU.v
+L0 5
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1748832396.264000
+Z7 !s107 D:/VLSI/New folder (2)/ALU.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/ALU.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+D:/VLSI/New folder (2)} -O0
+n@a@l@u
+vcontroller
+ITgDnG6ll<K1nl>@KOclOi1
+V6LKTh9M@8iTDj5bM2W63_3
+R1
+Z11 w1748829367
+Z12 8D:/VLSI/New folder (2)/Controller.v
+Z13 FD:/VLSI/New folder (2)/Controller.v
+L0 4
+R5
+r1
+31
+Z14 !s108 1748832396.186000
+Z15 !s107 D:/VLSI/New folder (2)/Controller.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/Controller.v|
+R9
+R10
+!i10b 1
+!s100 M:QPENO^lCg5Lj0gB<mhV2
+!s85 0
+!s101 -O0
+vCPU
+I^bBl]:K;igkDQe0hiZL@i0
+V0Z_2;=^G[aaCNgh2<R>LF3
+R1
+Z17 w1748827805
+Z18 8D:/VLSI/New folder (2)/CPU.v
+Z19 FD:/VLSI/New folder (2)/CPU.v
+L0 4
+R5
+r1
+31
+Z20 !s108 1748832396.090000
+Z21 !s107 D:/VLSI/New folder (2)/CPU.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/CPU.v|
+R9
+R10
+n@c@p@u
+!i10b 1
+!s100 T3SM5L8WG[lQNCm:ASiB:3
+!s85 0
+!s101 -O0
+vdatamem
+IYce0]1]@PSSN?dQ0Xi^6?3
+V2JV`mGgiEP;MU3abPj7?02
+R1
+R17
+Z23 8D:/VLSI/New folder (2)/DataMemory.v
+Z24 FD:/VLSI/New folder (2)/DataMemory.v
+L0 5
+R5
+r1
+31
+Z25 !s108 1748832396.012000
+Z26 !s107 D:/VLSI/New folder (2)/DataMemory.v|
+Z27 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/DataMemory.v|
+R9
+R10
+!i10b 1
+!s100 ;eWcAi^B4F]Z=Of=0[1Fh1
+!s85 0
+!s101 -O0
+vinsReg
+ITTRLgk]G=B36i:K`?dCDI1
+VzHc<oU>]2T@SM2V[h5B@71
+R1
+w1748829375
+8D:/VLSI/New folder (2)/InstReg.v
+FD:/VLSI/New folder (2)/InstReg.v
+L0 4
+R5
+r1
+31
+R9
+R10
+nins@reg
+!i10b 1
+!s100 cP?GL<KmlVnWK;b:bP>Wk1
+!s85 0
+!s108 1748832395.874000
+!s107 D:/VLSI/New folder (2)/InstReg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/InstReg.v|
+!s101 -O0
+vinstmem
+IAkZimGllCeeOYTU0QakU@3
+Vg@FM0ZlY0IlMF465hWP`91
+R1
+R17
+Z28 8D:/VLSI/New folder (2)/InstMemory.v
+Z29 FD:/VLSI/New folder (2)/InstMemory.v
+L0 5
+R5
+r1
+31
+Z30 !s108 1748832395.936000
+Z31 !s107 D:/VLSI/New folder (2)/InstMemory.v|
+Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/InstMemory.v|
+R9
+R10
+!i10b 1
+!s100 ?YZ=HfoWC<dYGFkS0nLm01
+!s85 0
+!s101 -O0
+vmuxA
+IWj]F@fmBhk<iF;CZbT@A10
+V70Fi_TzM98?dY1gN3QiQN2
+R1
+R17
+8D:/VLSI/New folder (2)/Mux.v
+FD:/VLSI/New folder (2)/Mux.v
+L0 5
+R5
+r1
+31
+R9
+R10
+nmux@a
+!i10b 1
+!s100 zX:nD66Li^mf2fLnoa1SQ0
+!s85 0
+!s108 1748832395.808000
+!s107 D:/VLSI/New folder (2)/Mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/Mux.v|
+!s101 -O0
+vmuxB
+I]_DfiF6Qd`WzQ?HH;l1S32
+V8I0CYh`0SGhQ4RhCNR4a90
+R1
+R17
+8D:/VLSI/New folder (2)/MuxB.v
+FD:/VLSI/New folder (2)/MuxB.v
+L0 5
+R5
+r1
+31
+R9
+R10
+nmux@b
+!i10b 1
+!s100 _`E5jcI0<i2LnO<T4BX=W3
+!s85 0
+!s108 1748832395.737000
+!s107 D:/VLSI/New folder (2)/MuxB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/MuxB.v|
+!s101 -O0
+vPC
+IhS^g:<cRSZ=l0gWn5mR1T3
+VWRSe@<d;c8KeADHmJ;KB02
+R1
+R17
+Z33 8D:/VLSI/New folder (2)/PC.v
+Z34 FD:/VLSI/New folder (2)/PC.v
+L0 4
+R5
+r1
+31
+Z35 !s108 1748832395.658000
+Z36 !s107 D:/VLSI/New folder (2)/PC.v|
+Z37 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/PC.v|
+R9
+R10
+n@p@c
+!i10b 1
+!s100 97@SVERiMU??eM670oY1X1
+!s85 0
+!s101 -O0
+vregA
+I7fieoQ6cL8SGb3j@cgaBE2
+VkdYM8Ka>_E>Y8DOOA=YA03
+R1
+R17
+Z38 8D:/VLSI/New folder (2)/RegA.v
+Z39 FD:/VLSI/New folder (2)/RegA.v
+L0 5
+R5
+r1
+31
+Z40 !s108 1748832395.582000
+Z41 !s107 D:/VLSI/New folder (2)/RegA.v|
+Z42 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/RegA.v|
+R9
+R10
+nreg@a
+!i10b 1
+!s100 V0F8<`fH5idf4ANGR]WeX1
+!s85 0
+!s101 -O0
+vregB
+I59iBcCF7MFAz_]Z9IU0Gj2
+VGPWG[k7n0iYHRBmM4AD3c3
+R1
+R17
+Z43 8D:/VLSI/New folder (2)/RegB.v
+Z44 FD:/VLSI/New folder (2)/RegB.v
+L0 5
+R5
+r1
+31
+Z45 !s108 1748832395.507000
+Z46 !s107 D:/VLSI/New folder (2)/RegB.v|
+Z47 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/RegB.v|
+R9
+R10
+nreg@b
+!i10b 1
+!s100 _II5;=AgIBb^22_c8??QD2
+!s85 0
+!s101 -O0
+vregC
+I3bPc4;TbU3kUIb2:R^<2l3
+V`][V^zA`BFfGgkE5cMb0N0
+R1
+R17
+Z48 8D:/VLSI/New folder (2)/RegC.v
+Z49 FD:/VLSI/New folder (2)/RegC.v
+L0 5
+R5
+r1
+31
+Z50 !s108 1748832395.398000
+Z51 !s107 D:/VLSI/New folder (2)/RegC.v|
+Z52 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VLSI/New folder (2)|D:/VLSI/New folder (2)/RegC.v|
+R9
+R10
+nreg@c
+!i10b 1
+!s100 <4af18If<1i_@KeaaA04a3
+!s85 0
+!s101 -O0
+vtb_ALU
+!i10b 1
+!s100 L=4nb@?HZ;T?Q]lAzT[3j0
+I51JTYAlim6CJE^M;9>VG=3
+VJ;TnOjHFn3KbASFPGPEl41
+R1
+R2
+R3
+R4
+L0 122
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+ntb_@a@l@u
+vtb_controller
+IFOS=ND2QmVLmzFDgPo?<T0
+VM5Y_TP;A]Z8=3I>W6H=oF1
+R1
+R11
+R12
+R13
+L0 334
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 fY6COI5;2J^<AVlGjDOGU2
+!s85 0
+!s101 -O0
+vtb_CPU
+I3bN[FDm0gdlo8E[?ZG>0h2
+V>@eeS8YFW3]o_d:J0[MOL0
+R1
+R17
+R18
+R19
+L0 47
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+ntb_@c@p@u
+!i10b 1
+!s100 NJbF[8HBY>X^Sg4C@L@AN0
+!s85 0
+!s101 -O0
+vtb_datamem
+IMAHh2`T5Ne1mODJjUbAlH1
+V8ZJI@9X_D4Gg[b0meoZKm2
+R1
+R17
+R23
+R24
+L0 33
+R5
+r1
+31
+R25
+R26
+R27
+R9
+R10
+!i10b 1
+!s100 1_L7cd5V^5PKJ=]A6E@9z2
+!s85 0
+!s101 -O0
+vtb_instmem
+IEE:0UOWON?C56nRBhhC;U1
+VQ=0Im2R:@?J5]h;<0:C@b1
+R1
+R17
+R28
+R29
+L0 33
+R5
+r1
+31
+R30
+R31
+R32
+R9
+R10
+!i10b 1
+!s100 ?R07jB_SmhJAe^0[_QeTG2
+!s85 0
+!s101 -O0
+vtb_PC
+IzPfnCH<NkfalFPQ19X9JS2
+V3CSB83MgK0fbLUYa?M7D;2
+R1
+R17
+R33
+R34
+L0 36
+R5
+r1
+31
+R35
+R36
+R37
+R9
+R10
+ntb_@p@c
+!i10b 1
+!s100 9=Q8N6zcI<o3niF]2id8a3
+!s85 0
+!s101 -O0
+vtb_regA
+I9k5F6aEh4Sh4fOBSBLI;I0
+VRicgFUSSfM^57i<]6Y_FX1
+R1
+R17
+R38
+R39
+L0 33
+R5
+r1
+31
+R40
+R41
+R42
+R9
+R10
+ntb_reg@a
+!i10b 1
+!s100 hKO;=fndDd@]Vha9=`@fd2
+!s85 0
+!s101 -O0
+vtb_regB
+IbX19aj4;QP2UTV^`e:9H91
+Vl897D`07RQ2Tcccj>WEJN0
+R1
+R17
+R43
+R44
+L0 33
+R5
+r1
+31
+R45
+R46
+R47
+R9
+R10
+ntb_reg@b
+!i10b 1
+!s100 A]J];Y]>0V]_T4Z=A:PZj3
+!s85 0
+!s101 -O0
+vtb_regC
+Izg`I@enPEY@joll883GjR2
+Va<[SbR=_I:453P:W_@=7T0
+R1
+R17
+R48
+R49
+L0 33
+R5
+r1
+31
+R50
+R51
+R52
+R9
+R10
+ntb_reg@c
+!i10b 1
+!s100 mC7MP5^Z0C?Li6W[a`D^D0
+!s85 0
+!s101 -O0

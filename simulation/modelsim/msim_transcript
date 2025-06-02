@@ -1,0 +1,330 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do xzv_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regC
+# -- Compiling module tb_regC
+# 
+# Top level modules:
+# 	tb_regC
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regB
+# -- Compiling module tb_regB
+# 
+# Top level modules:
+# 	tb_regB
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegA.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regA
+# -- Compiling module tb_regA
+# 
+# Top level modules:
+# 	tb_regA
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC
+# -- Compiling module tb_PC
+# 
+# Top level modules:
+# 	tb_PC
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/MuxB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxB
+# 
+# Top level modules:
+# 	muxB
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/Mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxA
+# 
+# Top level modules:
+# 	muxA
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/InstReg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module insReg
+# 
+# Top level modules:
+# 	insReg
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/InstMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instmem
+# -- Compiling module tb_instmem
+# 
+# Top level modules:
+# 	tb_instmem
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/DataMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module datamem
+# -- Compiling module tb_datamem
+# 
+# Top level modules:
+# 	tb_datamem
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CPU
+# -- Compiling module tb_CPU
+# ** Warning: D:/VLSI/New folder (2)/CPU.v(121): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	tb_CPU
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller
+# -- Compiling module tb_controller
+# 
+# Top level modules:
+# 	tb_controller
+# vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# 
+vsim -voptargs=+acc work.tb_ALU
+# vsim -voptargs=+acc work.tb_ALU 
+# Loading work.tb_ALU
+# Loading work.ALU
+add wave *
+run 2000ns
+# 
+# === KIEMTRA CAC TOAN TU SO NGUYEN ===
+# Mode = 0: CHE DO SO NGUYEN
+# Opcode: 000-ADD, 001-SUB, 010-AND, 011-OR, 100-XOR, 101-MUL, 110-SLL, 111-SRL
+# 
+# Time=15
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: 1 (16'b1)
+# Input B: 2 (16'b10)
+# Output: 3 (32'b11)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=25
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=1
+# Input A: 5 (16'b101)
+# Input B: 2 (16'b10)
+# Output: 3 (32'b11)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=1 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=35
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=10
+# Input A: ff (16'b11111111)
+# Input B: f0f (16'b111100001111)
+# Output: f (32'b1111)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=45
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=11
+# Input A: ff (16'b11111111)
+# Input B: f0f (16'b111100001111)
+# Output: fff (32'b111111111111)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=55
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=100
+# Input A: ff (16'b11111111)
+# Input B: f0f (16'b111100001111)
+# Output: ff0 (32'b111111110000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=65
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=101
+# Input A: 2 (16'b10)
+# Input B: 3 (16'b11)
+# Output: 6 (32'b110)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=75
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=110
+# Input A: 1 (16'b1)
+# Input B: 2 (16'b10)
+# Output: 4 (32'b100)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=1 (A less than B)
+# ----------------------------------------
+# 
+# Time=85
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=111
+# Input A: 8000 (16'b1000000000000000)
+# Input B: 2 (16'b10)
+# Output: 2000 (32'b10000000000000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=1 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# === KIEM TRA CAC PHEP TOAN SO THUC ===
+# Mode = 1: Chế độ số thực
+# Định dạng: 1-bit dấu, 5-bit mũ, 10-bit phần định trị
+# 
+# Time=95
+# Mode=1 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: 3c00 (16'b11110000000000)
+# Input B: 3c00 (16'b11110000000000)
+# Output: 3c00 (32'b11110000000000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=1 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=105
+# Mode=1 (0: Integer, 1: Float)
+# Opcode=1
+# Input A: 3c00 (16'b11110000000000)
+# Input B: 3800 (16'b11100000000000)
+# Output: 3c00 (32'b11110000000000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=1 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=115
+# Mode=1 (0: Integer, 1: Float)
+# Opcode=10
+# Input A: 3c00 (16'b11110000000000)
+# Input B: 3c00 (16'b11110000000000)
+# Output: 7800 (32'b111100000000000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=1 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# === KIEM TRA CAC TH DAC BIET ===
+# KIEM TRA CAC TRUONG HOP DAC BIET
+# 
+# Time=125
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: 0 (16'b0)
+# Input B: 0 (16'b0)
+# Output: 0 (32'b0)
+# Flags:
+#   za=1 (A is zero)
+#   zb=1 (B is zero)
+#   eq=1 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=135
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: ffff (16'b1111111111111111)
+# Input B: ffff (16'b1111111111111111)
+# Output: fffe (32'b1111111111111110)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=1 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=145
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: 7fff (16'b111111111111111)
+# Input B: 1 (16'b1)
+# Output: 8000 (32'b1000000000000000)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=0 (A equals B)
+#   gt=1 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# Time=155
+# Mode=0 (0: Integer, 1: Float)
+# Opcode=0
+# Input A: 8000 (16'b1000000000000000)
+# Input B: 8000 (16'b1000000000000000)
+# Output: 0 (32'b0)
+# Flags:
+#   za=0 (A is zero)
+#   zb=0 (B is zero)
+#   eq=1 (A equals B)
+#   gt=0 (A greater than B)
+#   lt=0 (A less than B)
+# ----------------------------------------
+# 
+# === KET THUC MO PHONG ===
+# ** Note: $finish    : D:/VLSI/New folder (2)/ALU.v(307)
+#    Time: 160 ps  Iteration: 0  Instance: /tb_ALU
+# 1
+# Break in Module tb_ALU at D:/VLSI/New folder (2)/ALU.v line 307
+# WARNING: No extended dataflow license exists

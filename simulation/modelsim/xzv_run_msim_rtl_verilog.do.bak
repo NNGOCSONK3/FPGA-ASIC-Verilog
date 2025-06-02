@@ -1,0 +1,22 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegC.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegB.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/RegA.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/PC.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/MuxB.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/Mux.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/LogicUnit.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/InstReg.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/InstMemory.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/DataMemory.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/CPU.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/Controller.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/ArithUnit.v}
+vlog -vlog01compat -work work +incdir+D:/VLSI/New\ folder\ (2) {D:/VLSI/New folder (2)/ALU.v}
+
